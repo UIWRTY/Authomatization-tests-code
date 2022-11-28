@@ -28,4 +28,7 @@ class TestQahunter():
     self.driver.find_element(By.CSS_SELECTOR, ".btn--lg").click()
     self.driver.find_element(By.CSS_SELECTOR, ".dev__name").click()
     self.driver.find_element(By.CSS_SELECTOR, ".column--2of3").click()
+
+import time
+time sleep(5)
   
